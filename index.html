@@ -38,6 +38,18 @@
       </div>
       <div class="content-area">
         <div class="wrapper">
+          <br />
+          <a
+            >Teleport to <a href="#Mitchell W">Mitchell W</a> |
+            <a href="#Isaac K">Isaac K</a> |
+            <a href="#Michael C">Michael C</a> |
+            <a href="#Olivia V">Olivia V</a></a
+          >
+
+          <button onclick="topFunction()" id="myBtn" title="Go to top">
+            Top
+          </button>
+
           <h3>Shanice P | Student ID: S3927620</h3>
           <p>
             <strong>Personal Information</strong><br />
@@ -84,7 +96,8 @@
             individuals prefer to follow a plan, rather than act spontaneously.
             Their methodical planning and perseverance usually makes them highly
             successful in their chosen occupation.
-            <br />
+            <p id="Mitchell W"></p>
+  
           </p>
           <h3>Mitchell W | Student ID: S3926443</h3>
           <p>
@@ -136,6 +149,8 @@
             negative to this is that when a task requires design people with low
             creativity tend to fall behind.
             <br />
+            <p id="Isaac K"></p>
+
           </p>
           <h3>Isaac K | Student ID: S3925811</h3>
           <p>
@@ -178,7 +193,9 @@
             /><br />
             <i>PNGKey, n.d.</i>
           </div>
-          <br />
+          <p id="Michael C"></p>
+          <br>
+          <br>
           <h3>Michael C | Student ID: S3922875</h3>
           <p>
             <strong>Personal Information</strong><br />
@@ -227,6 +244,7 @@
             and open to new experiences. The results also advise that I am not
             very conservative nor traditional, and that I am not impulsive in
             nature.
+            <p id="Olivia V"></p>
           </p>
           <h3>Olivia V | Student ID: S3921160</h3>
           <p>
@@ -284,5 +302,33 @@
         </div>
       </div>
     </div>
-  </body>
+<!-- Testing return to top button - Sourced from W3 Schools "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp"-->
+
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</body>
 </html>
