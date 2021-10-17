@@ -259,8 +259,28 @@ nav a {
   margin: 0;
 }
 .content-area p {
+  text-align: left;
   padding: 2% 0px;
   font-family: poppins;
   line-height: 30px;
   font-size: 18px;
+}
+
+.content-area ol {
+  text-align: left;
+  font-family: poppins;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.content-area li {
+  text-align: left;
+  font-family: poppins;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.content-img {
+  text-align: center;
+  font-family: poppins;
 }
