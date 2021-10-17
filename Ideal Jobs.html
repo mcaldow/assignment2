@@ -38,6 +38,18 @@
       </div>
       <div class="content-area">
         <div class="wrapper">
+          <br />
+          <a
+            >Teleport to - 
+            <a href="#Michael C">Michael C</a> |
+            <a href="#Mitchell W">Mitchell W</a> |
+            <a href="#Olivia V">Olivia V</a> |
+            <a href="#Shanice P">Shanice P</a> |
+            <a href="#Ideal Job Comparison">Ideal Job Comparison</a>
+
+          <button onclick="topFunction()" id="myBtn" title="Go to top">
+            Top
+          </button>
           <h3>Isaac K</h3>
           <p>
             The job I feel would be ideal for me is one I found on seek. The 
@@ -62,6 +74,7 @@
             would be ideal to have a part time job through university that has a 
             focus on MS #C and HTML5 so I can increase my experience. 
           </p>
+          <p id="Michael C"></p>
           <br />
           <h3>Michael C</h3>
           <p>
@@ -75,6 +88,7 @@
             completing my I.T. degree and working as a junior developer to break 
             into the field and gain experience. 
           </p>
+          <p id="Mitchell W"></p>
           <br />
           <h3>Mitchell W</h3>
           <p>
@@ -86,6 +100,7 @@
             a junior position. Employers are often looking for self-motivated people 
             who have an eye for detail and can excel in a collaborative environment.
           </p>
+          <p id="Olivia V"></p>
           <br />
           <h3>Olivia V</h3>
           <p>
@@ -97,8 +112,8 @@
             spend some time in both back-end and front-end development roles.
             <br /> 
             Other roles that I have considered include being a product owner and penetration tester.
-
           </p>
+          <p id="Shanice P"></p>
           <br />
           <h3>Shanice P</h3>
           <p>
@@ -116,6 +131,7 @@
             allowing me to further my communication skills when dealing with a wide 
             variety of people from different sectors.
           </p>
+          <p id="Ideal Job Comparison"></p>
           <br />
           <h3>Ideal Job Comparison</h3>
           <p>
@@ -182,5 +198,33 @@
         </div>
       </div>
     </div>
-  </body>
+<!-- Return to top button - Sourced from W3 Schools "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp"-->
+
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</body>
 </html>
