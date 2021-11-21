@@ -13,7 +13,7 @@ body {
 }
 header {
   height: 100px;
-  background: #262626;
+  background: #575c55;
   width: 100%;
   z-index: 10;
   position: fixed;
@@ -26,8 +26,9 @@ header {
 .logo a {
   text-decoration: none;
   font-size: 30px;
+  font-weight: bold;
   font-family: poppins;
-  color: #fff;
+  color: #d1c496;
   letter-spacing: 5px;
 }
 nav {
@@ -44,7 +45,7 @@ nav a {
 }
 
 .dropbtn {
-  background-color: #04aa6d;
+  background-color: #d1c496;
   color: white;
   padding: 16px;
   font-size: 15px;
@@ -82,7 +83,7 @@ nav a {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #c7d3bb;
 }
 
 .banner-area-ideal-jobs {
